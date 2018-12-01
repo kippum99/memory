@@ -39,4 +39,5 @@ def playGame():
             cardsLeft -= 2
     print(f'Game finished with {flips} flips')
 
-playGame()
+if __name__ == '__main__':
+    playGame()
